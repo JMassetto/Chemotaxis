@@ -2,7 +2,7 @@ Bacteria [] colony;
 void setup()   
 {     
   size(600,600);
-  background(180,180,180);
+  background(0,0,0);
   colony = new Bacteria[15];
   for(int row = 0; row < colony.length; row++){
     colony[row] = new Bacteria();
